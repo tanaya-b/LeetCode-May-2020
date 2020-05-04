@@ -18,3 +18,10 @@ This Approach has not provided optimal runtime(32ms)/memory usage(13.7MB).
 I have converted both the strings into a list of characters, and returned the length of the list where characters overlap. This keeps the runtime short but the memory usage is on the higher side due to the creation of multiple lists.
 
 This Approach has provided an runtime higher than 70.46% submissions in Python (26ms) and a memory usage on the higher end(13.6MB).
+
+# May 3
+![May 2](images/may3.PNG)
+## Approach
+
+I have initialized a dictionary of every character in Ransom, and compared that with the character counts in the Magazine
+This Approach has provided an runtime higher than 73.49% submissions in Python (28ms) and a memory usage on the higher end(13.3MB).
