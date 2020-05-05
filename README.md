@@ -17,7 +17,7 @@ This Approach has not provided optimal runtime(32ms)/memory usage(13.7MB).
 
 I have converted both the strings into a list of characters, and returned the length of the list where characters overlap. This keeps the runtime short but the memory usage is on the higher side due to the creation of multiple lists.
 
-This Approach has provided an runtime higher than 70.46% submissions in Python (26ms) and a memory usage on the higher end(13.6MB).
+This Approach has provided a runtime higher than 70.46% submissions in Python (26ms) and a memory usage on the higher end(13.6MB).
 
 # May 3
 ![May 3](images/may3.PNG)
@@ -33,4 +33,13 @@ This Approach has provided an runtime higher than 73.49% submissions in Python (
 The important part about this problem is knowing the inbuilt binary to integer and integer to binary functions inbuilt in Python.
 After that it is a regular if-else loop iterating over every character in the string of the binary representation of input number, and generating a string for the complement. This binary string is then converted to integer representation using the base-2.
 
-This Approach has provided an runtime higher than 71.04% submissions in Python (28ms) and a memory usage on the higher end(13.5MB) which would have exceeded to 14MB had I used list conversion instead of string conversion.
+This Approach has provided a runtime higher than 71.04% submissions in Python (28ms) and a memory usage on the higher end(13.5MB) which would have exceeded to 14MB had I used list conversion instead of string conversion.
+
+
+# May 5
+![May 5](images/may5.PNG)
+## Approach
+
+On May 3, I discovered a lot of optimal suggestions using the Counter from the collections library and decided to give that a go. Since sequencing mattered I went with the OrderedCounter defined in their documentation - which has costed me time and memory both. After then it was just about returning the first non-recurring value in the dictionary thus created.
+
+To use this approach and get to know the collections library better, has provided a relatively weaker runtime higher than just 41.43% submissions in Python (114ms) and a memory usage of 13.7MB.
