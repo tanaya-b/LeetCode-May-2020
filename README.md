@@ -20,8 +20,17 @@ I have converted both the strings into a list of characters, and returned the le
 This Approach has provided an runtime higher than 70.46% submissions in Python (26ms) and a memory usage on the higher end(13.6MB).
 
 # May 3
-![May 2](images/may3.PNG)
+![May 3](images/may3.PNG)
 ## Approach
 
 I have initialized a dictionary of every character in Ransom, and compared that with the character counts in the Magazine
 This Approach has provided an runtime higher than 73.49% submissions in Python (28ms) and a memory usage on the higher end(13.3MB).
+
+# May 4
+![May 4](images/may4.PNG)
+## Approach
+
+The important part about this problem is knowing the inbuilt binary to integer and integer to binary functions inbuilt in Python.
+After that it is a regular if-else loop iterating over every character in the string of the binary representation of input number, and generating a string for the complement. This binary string is then converted to integer representation using the base-2.
+
+This Approach has provided an runtime higher than 71.04% submissions in Python (28ms) and a memory usage on the higher end(13.5MB) which would have exceeded to 14MB had I used list conversion instead of string conversion.
