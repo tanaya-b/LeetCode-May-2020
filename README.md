@@ -43,3 +43,12 @@ This Approach has provided a runtime higher than 71.04% submissions in Python (2
 On May 3, I discovered a lot of optimal suggestions using the Counter from the collections library and decided to give that a go. Since sequencing mattered I went with the OrderedCounter defined in their documentation - which has costed me time and memory both. After then it was just about returning the first non-recurring value in the dictionary thus created.
 
 To use this approach and get to know the collections library better, has provided a relatively weaker runtime higher than just 41.43% submissions in Python (114ms) and a memory usage of 13.7MB.
+
+
+# May 6
+![May 6](images/may6.PNG)
+## Approach
+
+On May 3, I discovered a lot of optimal suggestions using the Counter from the collections library and decided to give that a go again. Since it did not give me optimal results on May 5, I was still vary of it. The counter has a function *most_common()* which I directly returned. This has given me highly optimal results with respect to runtime.
+
+To use this approach and get to know the collections library better, has provided a high runtime higher than just 89.32% submissions in Python (168ms) and a memory usage of 15.2MB.
