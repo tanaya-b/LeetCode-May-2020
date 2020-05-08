@@ -52,3 +52,13 @@ To use this approach and get to know the collections library better, has provide
 On May 3, I discovered a lot of optimal suggestions using the Counter from the collections library and decided to give that a go again. Since it did not give me optimal results on May 5, I was still vary of it. The counter has a function *most_common()* which I directly returned. This has given me highly optimal results with respect to runtime.
 
 To use this approach and get to know the collections library better, has provided a high runtime higher than just 89.32% submissions in Python (168ms) and a memory usage of 15.2MB.
+
+
+# May 7
+![May 7](images/may7.PNG)
+## Approach
+
+This was a tough one, not having solved problems on BST since about 2 years. But in my opinion, not having prior experience is the best way to problem solving. There is no bias, and one is free to look at the most simplistic solution, so that's what I did!
+The very basic idea that we get from the question is to find nodes that are at the same height and don't share the same parent. I used recursive parsing through the tree itself, but I made a dictionary to store the values that I required for comparison, ie parents and levels, so that I did not have to parse the tree multiple times. This brought my runtime down a lot, and gave me an optimal solution in the very first try! My first submission got a Wrong Anser since I extended the code to only include first cousins. So the thing to remember is to not go beyond the question and stick to what has been told. Lesson learnt!
+
+With extremely optimal performance, this code has provided a runtime higher than 97.17% submissions in Python (24ms) and a memory usage of 14.1MB.
